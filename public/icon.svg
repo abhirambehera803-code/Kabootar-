@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <g filter="url(#shadow)" transform="translate(48, 48) scale(0.8125)">
+    <!-- Stylized Modern Signal Wing -->
+    <path d="M430 82L62 254c-14 6-13 26 2 31l98 34 228-176-176 198 12 78c3 22 30 28 42 10l52-60 84 56c14 9 32 1 36-15l68-294c4-18-14-34-31-26z" fill="#ffffff" opacity="0.98"/>
+    <path d="M200 397v-66l38 28-26 48c-3 5-10 3-12-10z" fill="#cbd5e1" opacity="0.6"/>
+  </g>
+</svg>

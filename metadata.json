@@ -1,0 +1,10 @@
+{
+  "name": "Aether Messenger",
+  "description": "A high-performance real-time messaging web app with group chats, voice messages, file sharing, and cross-device sync.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
